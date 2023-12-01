@@ -7,11 +7,11 @@ This repository contains a Transformer model trained for Named Entity Recognitio
 The NER task involves labeling sequences of words in a text which are the names of things, such as person names, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
 
 ## Model
-Details about the model architecture, training data, and training procedure.
+- [System A](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-a-v1)
+- [System B](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-b-v1)
 
 ## Results
-- Summary of the model's performance.
-- Charts or graphs (if applicable).
+- Summary of the model's performance is already put in the Inference Notebook.
 
 ## Notebooks
 - Training Notebook using HF: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hazemsamoaa/rise-ner-task/blob/main/notebooks/RISE-NER-Final-HF-Training.ipynb)
@@ -19,9 +19,6 @@ Details about the model architecture, training data, and training procedure.
 - Additional notebooks or scripts used in the project.
     - Training Notebook using PT: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hazemsamoaa/rise-ner-task/blob/main/notebooks/RISE-NER-Final-Pyorch-Traininig.ipynb)
     - Inference Notebook using PT: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hazemsamoaa/rise-ner-task/blob/main/notebooks/RISE-NER-Final-Pytorch-Inference.ipynb)
-
-## Research Paper
-If this work is based on a research paper, include citation details here.
 
 ## How to Use
 Instructions on how to use this model, including installation steps, code snippets, etc.
