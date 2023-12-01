@@ -4,12 +4,18 @@
 This repository contains a Transformer model trained for Named Entity Recognition (NER). The model is designed to identify and classify named entities in text into predefined categories.
 
 ## Task Description
-The NER task involves labeling sequences of words in a text which are the names of things, such as person names, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
+The NER task involves labeling sequences of words in a text which are the names of things, such as person names, organizations, locations, expressions of times, quantities, monetary values, percentages, etc. Thus the model is fine tuned based on two settings:
+1. Including all 31 labels `ner-tags` which lead to model of System A
+2. Including only five labels `['O','PER', 'LOC', 'ORG', 'DIS', 'ANIM']` which leads to model of System B
 
 ## Model
+The models are fine tuned in two ways:
+1. Using hugging face methods, so we have version1 `v1` of the model. 
 - [System A](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-a-v1)
 - [System B](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-b-v1)
-
+2. Using torch training and validation methods, so we have version1 `v2` of the model. 
+- [System A](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-a-v2)
+- [System B](https://huggingface.co/petersamoaa/rise-ner-distilbert-base-cased-system-b-v2)
 ## Results
 - Summary of the model's performance is already put in the Inference Notebook.
 
